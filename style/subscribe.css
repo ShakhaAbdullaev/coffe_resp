@@ -1,0 +1,134 @@
+.subscribe{
+    background: url(../img/subs.png);
+    height: 374px;
+    text-align: center;
+}
+
+
+.subs_head{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 80px;
+    margin-bottom: 16px;
+}
+
+.subs_info{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    margin-bottom: 26px;
+}
+
+.subs_box{
+    display: flex;
+    justify-content: center;
+}
+
+.subs_input{
+    border-radius: 4px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    padding: 16px;
+    border: none;
+    outline: none;
+    max-width: 505px;
+    width: 100%;
+}
+
+.subs_input:focus{
+    box-shadow: 6px 6px 6px 0px rgba(249, 192, 106, 0.2);
+}
+
+.subs_btn{
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 19px 24px;
+    border-radius: 4px;
+    background: #F9C06A;
+    transition: all 0.3s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.subs_btn:hover{
+    box-shadow: 0px 12px 12px 0px rgba(249, 192, 106, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .subs_head{
+        font-size: 35px;
+        padding-top: 50px;
+    }
+
+    .subs_info{
+        font-size: 18px;
+    }
+
+    .subs_input{
+    padding: 10px;
+    max-width: 405px;
+    width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    .subs_head{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+
+    .subs_info{
+        font-size: 14px;
+    }
+
+    .subs_box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subs_input{
+    padding: 15px;
+    max-width: 405px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+
+    .subs_btn{
+        color: var(--coffee, #603809);
+        font-family: Playfair Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 14px 18px;
+        border-radius: 4px;
+        background: #F9C06A;
+        transition: all 0.3s;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}

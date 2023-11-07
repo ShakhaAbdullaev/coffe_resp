@@ -1,0 +1,350 @@
+.different {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.different_heading {
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.different_info {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    margin-bottom: 32px;
+}
+
+.different_card_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.different_card {
+    background: #FFEED8;
+    padding: 36px;
+}
+
+.different_card_img {
+
+}
+
+.different_card_text {
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.different_card_info {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.coffee_blast_right {
+    position: relative;
+}
+.coffee_blast_right_img {
+    transform: scale(-1,1);
+    position: absolute;
+    right: 0;
+    top: 1125px;
+}
+
+@media only screen and (max-width: 1200px){
+    .coffee_blast_right_img{
+        scale: 0.9;
+        right: -20px;
+    }
+}
+
+@media only screen and (max-width: 1139px){
+    .different_card_text{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1110px){
+    .different_card_info {
+        font-size: 18px;
+    }
+
+    .coffee_blast_right_img{
+        scale: 0.8;
+        right: -40px;
+        top: 1125px;
+    }
+}
+
+@media only screen and (max-width: 1109px){
+
+    .coffee_blast_right_img{
+        scale: 0.8;
+        right: -40px;
+        top: 1125px;
+    }
+}
+
+@media only screen and (max-width: 1071px){
+
+    .coffee_blast_right_img{
+        scale: 0.8;
+        right: -40px;
+        top: 1125px;
+    }
+}
+
+@media only screen and (max-width: 1069px){
+    .different_card_info {
+        font-size: 16px;
+    }
+
+    .coffee_blast_right_img{
+        scale: 0.75;
+        right: -50px;
+        top: 1625px;
+    }
+}
+
+@media only screen and (max-width: 975px){
+    .different_card_info {
+        font-size: 20px;
+    }
+
+    .coffee_blast_right_img{
+        scale: 0.70;
+        right: -60px;
+        top: 1600px;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    .coffee_blast_right_img{
+        scale: 0.65;
+        right: -70px;
+        top: 1580px;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .coffee_blast_right_img{
+        scale: 0.65;
+        right: -70px;
+        top: 1550px;
+    }
+}
+
+@media only screen and (max-width: 826px){
+    .coffee_blast_right_img{
+        scale: 0.65;
+        right: -70px;
+        top: 1525px;
+    }
+}
+
+@media only screen and (max-width: 809px){
+    .coffee_blast_right_img{
+        scale: 0.65;
+        right: -70px;
+        top: 1765px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .coffee_blast_right_img{
+        scale: 0.65;
+        right: -70px;
+        top: 1605px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .coffee_blast_right_img{
+        scale: 0.6;
+        right: -80px;
+        top: 1620px;
+    }
+}
+
+@media only screen and (max-width: 743px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1620px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1790px;
+    }
+}
+
+@media only screen and (max-width: 701px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1890px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1850px;
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1770px;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 1770px;
+    }
+}
+
+@media only screen and (max-width: 549px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3320px;
+    }
+}
+
+@media only screen and (max-width: 531px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3325px;
+    }
+}
+
+@media only screen and (max-width: 487px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3220px;
+    }
+
+}
+
+@media only screen and (max-width: 428px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3020px;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    .different_card{
+        padding: 30px;
+    }
+
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 416px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 391px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -90px;
+        top: 3050px;
+    }
+}
+
+
+@media only screen and (max-width: 380px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -95px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 374px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -100px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -110px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 322px){
+    .coffee_blast_right_img{
+        scale: 0.55;
+        right: -110px;
+        top: 3050px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .different_heading{
+        font-size: 35px;
+    }
+
+    .coffee_blast_right_img{
+        scale: 0.50;
+        right: -110px;
+        top: 2850px;
+    }
+}
+
+
+
+
+
+
+
+

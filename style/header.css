@@ -1,0 +1,311 @@
+header{
+    padding-top: 20px;
+    background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%), url(../img/coffee_image.png);
+    height: 768px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+
+.navigation_list_box{
+    display: flex;
+    gap: 60px;
+}
+
+.navigation_list{
+    list-style-type: none;
+}
+
+.navigation_link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s;
+}
+
+.navigation_link:hover{
+    color: #F9C06A;
+}
+
+.log_sign{
+    gap: 20px;
+    display: flex;
+}
+
+.signin{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 15px 24px;
+    transition: all 0.3s;
+    border-radius: 24px;
+}
+
+.signin:hover{
+    text-decoration: none;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+
+}
+
+.signup{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 15px 24px;
+    transition: all 0.3s;
+    border-radius: 24px;
+}
+
+.signup:hover{
+    text-decoration: none;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+.entrance_text{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.entrance_logo_text{
+    color: #FFF;
+    font-family: Clicker Script;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.entrance_info{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    max-width: 527px;
+    margin-bottom: 20px;
+}
+
+.entrance_link{
+    color: #1E1E1E;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 14px 26px;
+    text-decoration: none;
+    border-radius: 24px;
+    background: #F9C06A;
+    transition: all 0.3s;
+}
+
+.entrance_link:hover{
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+
+@media only screen and (max-width: 770px) {
+
+header{
+    padding-top: 10px;
+    background: linear-gradient(90deg, #1E1E1E -6.88%, rgb(0, 0, 0, 0.00) 87.45%), url(../img/coffee_image.png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation_list_box{
+    display: flex;
+    gap: 30px;
+}
+
+.log_sign{
+    gap: 5px;
+    display: flex;
+}
+
+.signin{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 10px 20px;
+}
+
+.signin:hover{
+    text-decoration: none;
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+
+}
+
+.signup{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 10px 20px;
+}
+
+.signup:hover{
+    text-decoration: none;
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+}
+
+@media only screen and (max-width: 650px){
+
+    header{
+        padding-top: 10px;
+        background: linear-gradient(90deg, #1E1E1E -6.88%, rgb(0, 0, 0, 0.00) 87.45%), url(../img/coffee_image.png);
+        height: 650px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.navigation_list_box{
+    display: none;
+}
+
+.log_sign{
+    display: none;
+}
+
+.burger_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burger_menu span{
+    width: 25px;
+    height: 4px;
+    background: #FFF;
+    border-radius: 50px;
+    display: block;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+
+    header{
+        background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%), url(../img/coffee_image.png);
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .entrance_text{
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .entrance_logo_text{
+        color: #FFF;
+        font-family: Clicker Script;
+        font-size: 180px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .entrance_info{
+        color: #FFF;
+        font-family: Playfair Display;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 170% */
+        max-width: 527px;
+        margin-bottom: 20px;
+    }
+    
+    .entrance_link{
+        color: #1E1E1E;
+        font-family: Playfair Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 14px 26px;
+        text-decoration: none;
+        border-radius: 24px;
+        background: #F9C06A;
+        transition: all 0.3s;
+    }
+    
+    .entrance_link:hover{
+        box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .entrance_logo_text{
+        color: #FFF;
+        font-family: Clicker Script;
+        font-size: 150px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }   
+
+}
+
+@media only screen and (max-width: 330px){
+
+    .entrance_logo_text{
+        color: #FFF;
+        font-family: Clicker Script;
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }   
+
+}
